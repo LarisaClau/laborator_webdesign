@@ -1,0 +1,178 @@
+.body {
+    background-image: url("background.png");
+    font-family: "Varela Round";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.page-header {
+  background-color: rgb(227, 197, 153);
+  z-index: 100;
+  color: black;
+  font-weight: 500;
+  font-family:'Times New Roman', Times, serif;
+  width: 100%;
+  position: fixed;
+}
+
+.header-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.logo-img {
+  padding-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.search {
+  margin-left: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-search {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 175px;
+  margin-top: 2px;
+}
+
+.search > input[type="text"] {
+  border-radius: 5px;
+  border-color: black;
+}
+
+.headblocks-contact {
+  width: 205px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding-top: 5px;
+
+}
+
+.transport {
+  font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+.headblocks-contact > ul {
+    padding: 10px;
+}
+  
+.footer-links {
+    padding: 0px;
+}
+  
+.footer-content {
+    padding: 0px;
+}
+
+li:first-child {
+  font-size: 15px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 14px;
+  margin-left: 25px;
+}
+
+.amount {
+  font-size: 14px;
+  width: 18px;
+  height: 18px;
+  background: white;
+  color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.header-bottom {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-bottom > a:hover {
+  background-color: white;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: rgb(10, 10, 10);
+  font-family: "Alegreya", serif;
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(227, 197, 153);
+  color: black;
+  font-weight: 500;
+  font-family: "Varela Round";
+
+}
+
+.column-content {
+  margin-top: 20px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2.2;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  justify-content: right;
+  margin-right: 30px;
+}
+
+.left {
+  justify-content: left;
+  margin-left: 50px;
+}
+
+
