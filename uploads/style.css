@@ -10,7 +10,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  color: rgb(16, 14, 14);
 }
 
 .navbar-brand {
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: Abel;
+  font-family: georgia, serif;
   font-size: 150%;
   font-weight: bold;
 }
@@ -49,4 +49,23 @@ body {
   right: 240px;
 }
 
+.nav navbar-nav navbar-right{
+  color: rgb(239, 234, 234);
+}
 
+h4{
+  color:black;
+}
+
+a{
+  color: white;
+}
+
+li{
+  color: white;
+}
+
+.panel-heading {
+  color: black;
+
+}

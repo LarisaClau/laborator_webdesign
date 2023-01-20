@@ -22,12 +22,12 @@ if(isset($_SESSION['uid'])){
 	<link rel="stylesheet" type="text/css" href="style/styles.css?version=7">
 	<link rel="icon" type="image/x-icon" href="logo_transparent.png">
 </head>
-<body>
-	<div class="navbar navbar-default navbar-fixed-top" id="topnav">
+<body style="  background-image: url('uploads/images/background4.png'); 
+               background-repeat: no-repeat; 
+               background-attachment: fixed; 
+               background-size: 100% 100%;">
+	<div class="navbar navbar navbar-fixed-top" id="topnav">
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand">Delicate Nails</a>
-			</div>
 
 <?php
 include 'includes/meniu.php';
@@ -64,7 +64,7 @@ if(isset($_POST['login'])) {
 	<p><br><br></p>
 	<p><br><br></p>
 	
-	<div class="container-fluid" style="margin-top:15rem;">
+	<div class="container-fluid" style="margin-top: 50px;">
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8" id="err_msg"></div>
@@ -74,7 +74,7 @@ if(isset($_POST['login'])) {
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<div class="panel panel-primary">
-					<div class="panel-heading">Logare</div>
+					<div class="panel-heading" style="background-color: #ed7bc2;">Logare</div>
 					<div class="panel-body">
 					<form method="POST">
 					<div class="row">
@@ -89,7 +89,7 @@ if(isset($_POST['login'])) {
 					</div>
 					<br><br>
 					<div class="col-md-12 login">
-						<input type="SUBMIT" name="login" class="btn btn-primary" value="Logare" >
+						<input type="SUBMIT" name="login" class="btn btn-primary" value="Logare" style="background-color: #ed7bc2;">
 					</div>
 					<p></br> Doriti sa va inregistrati? Apăsați <b><a href='register.php'>aici</a></b> pentru a vă inregistra. </p>
 					</div>
@@ -112,15 +112,16 @@ if(isset($_POST['login'])) {
 	<script src="main.js"></script>
 	
 </body>
+
 <?php
 	include('includes/footer.php');
  ?>
+
  <style>
 .page-footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 25%;
 }
 
 .panel-body {
