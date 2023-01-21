@@ -1,0 +1,39 @@
+body { 
+    background-image: url('../uploads/images/background4.png'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.foot{
+	text-align: center;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+td {
+    padding: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: #f59ad9;
+  color: black;
+  height: 60px;
+}
+
+.page-footer {
+  margin-top: 30px!important;
+}
+
+td > img {
+    border: 5px #f59ad9 solid;
+    border-radius: 24px;
+}

@@ -19,7 +19,7 @@
             <!--butoane bara de navigare-->
 			<ul class="nav navbar-nav navbar-right" style="font-size: 18px;">	 
 				<li><a href="index.php">Acasă</a></li>							
-				<li><a href="about.php">Despre noi</a></li>
+				<li><a href="galerie.php">Galerie</a></li>
 				<li><a href="contact.php">Contact</a></li>
 
 				<?php if(!isset($_SESSION['loggedin'])){?>

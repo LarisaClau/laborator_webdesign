@@ -146,11 +146,11 @@ if(isset($_POST['submit'])) {
 					</div>
 
 					<br><br>
-					<div class="col-md-12">
+					<div class="col-md-12" style="display:flex; justify-content: center; align-items: center;">
 						<input type="SUBMIT" name="submit" class="btn btn-primary" value="Înregistrare" style="background-color: #ed7bc2;">
 					</div>
 					</br></br> 
-					<p>Aveți deja cont? Apăsați <b><a href='login.php'>aici</a></b> pentru a vă conecta. </p>
+					<p style="display:flex; justify-content: center; align-items: center;">Aveți deja cont? Apăsați <b><a href='login.php' style="color: #ed7bc2; margin-left: 2px; margin-right: 2px;"> aici </a></b> pentru a vă conecta. </p>
 					</div>
 					</div>
 				

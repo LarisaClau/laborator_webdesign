@@ -91,7 +91,7 @@ if(isset($_POST['login'])) {
 					<div class="col-md-12 login">
 						<input type="SUBMIT" name="login" class="btn btn-primary" value="Logare" style="background-color: #ed7bc2;">
 					</div>
-					<p></br> Doriti sa va inregistrati? Apăsați <b><a href='register.php'>aici</a></b> pentru a vă inregistra. </p>
+					<p></br> Doriti sa va inregistrati? Apăsați <b><a href='register.php' style="color: #ed7bc2;">aici</a></b> pentru a vă inregistra. </p>
 					</div>
 				
 					</form>
